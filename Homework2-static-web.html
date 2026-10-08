@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ sơ cá nhân - Nguyễn Văn Linh</title>
+    <style >
+        body {
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f5;
+            display: flex;
+            justify-content: center; /* căn giữa theo chiều ngang */
+            align-items: center; /*căn giữa theo chiều dọc*/
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #ffffff;
+            width: 350px;
+            padding: 30px;
+            border-radius:  15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit:  cover;
+            border: 4px solid #0070f3;
+            margin-bottom:  15px;
+        }
+        h1 {
+            color: #333333;
+            font-size: 22px;
+            margin: 10px 0 5px 0;
+        }
+        h2 {
+            color: #0070f3;
+            font-size:  15px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #666666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        li{
+            background-color: #e6f0ff;
+            color: #0070f3;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        a {
+            color: #0070f3;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #0070f3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #0051a2;
+        }
+    </style>
+</head>
+<body>
+    <div class = "card">
+    <img class="avatar" src="https://picsum.photos/150" alt="Ảnh đại diện">
+    <h1>Nguyễn Văn Linh</h1>
+    <h2>Sinh viên chương trình BCU - UIT</h2>
+    <p>Em là sinh viên năm nhất thuộc chương trình BCU-UIT, lí do học môn web vì muốn biết thêm cách một trang web được tạo ra</p>
+    <ul>
+        <li> Laragon </li>
+        <li> VS Code </li> 
+        <li> Git </li>
+    </ul>
+    <a href = "https://github.com/linh-nguyen123" target="_blank">Trang Github</a>
+    <button onclick="alert('chào mừng bạn đến với trang web của tôi!')">Gửi</button>
+    </div>
+</body>
+</html>
